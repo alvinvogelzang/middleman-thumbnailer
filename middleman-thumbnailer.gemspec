@@ -18,7 +18,8 @@ Gem::Specification.new do |s|
 
   # s.add_runtime_dependency("middleman", ["~> 3.2.2"])
   s.add_runtime_dependency("rake", [">= 0"])
-  s.add_runtime_dependency("rmagick", ["~> 2.13.0"])
+  s.add_runtime_dependency("rmagick", ["~> 2.16.0"])
+  s.add_runtime_dependency("mime-types", ["~> 3.0.0"])
 
   s.add_development_dependency 'rspec'
 end

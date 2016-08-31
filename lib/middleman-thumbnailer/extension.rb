@@ -1,4 +1,5 @@
 require 'fileutils'
+require 'mime-types'
 
 require 'middleman-thumbnailer/thumbnail-generator'
 
